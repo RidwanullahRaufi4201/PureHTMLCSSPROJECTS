@@ -1,0 +1,330 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html ,body{
+	width: 100%;
+	height: 100%;
+}
+#upheader{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #33ccff;
+	padding: 10px;
+	
+
+}
+header nav #menu a:hover{
+ 	background-color: #33ccff;
+}
+#upheader h1{
+	font-size: 15px;
+}
+#upheader h1 span{
+	color: white;
+}
+
+header{
+	background-color: rgba(0,0,0,0.5);
+	position: sticky;
+	top: 0.1px;
+
+}
+
+header nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+
+}
+#menu a{
+  margin: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: white;
+}
+#logo h1{
+	color: white;
+	font-size: 20px;
+	margin: 0 auto;
+}
+#logo h1 small{
+	margin: 0 15px;
+	color:black;
+}
+
+
+#slider{
+	width: 100%;
+	background-image: url("pic1.jpg");
+	padding: 50px;
+	background-size: cover;
+	height: 90%;
+}
+
+
+#slider h2{
+	color: white;
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 35px;
+	font-weight: bolder;
+}
+#content{
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+	padding: 150px;
+}
+#content h1{
+	text-align: center;
+	font-size: 35px;
+}
+#content h1 span{
+	color: #33ccff;
+	font-weight: bolder;
+}
+#content div {
+	margin: 50px 0px;
+}
+#content div h2{
+	padding: 10px;
+	margin: 10px 0;
+}
+#content div p{
+	padding: 15px;
+	margin: 20px 0;
+}
+#content div >a{
+	padding: 10px;
+	margin: 20px 0;
+
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	background-color:  #33ccff;
+}
+
+#slider2{
+	
+	background-image: url("pic02.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 80%;
+	
+}
+#slider2 h1{
+	margin: 40 0px;
+	visibility: hidden;
+}
+#slider2 h2{
+  background-color: black;
+  color: white;
+  font-size:35px;
+  text-align: center;
+  padding: 0px auto
+  width: 50%;
+
+
+}
+
+#inside{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+
+}
+
+#dee{
+	margin: 0 80px;
+}
+#dcc{
+	margin: 0 80px;
+
+}
+div h3{
+	font-size: 30px;
+}
+div i{
+	font-size: 30px;
+	color: #33ccff;
+}
+div h4{
+	font-size: 20px;
+	color: #33ccff;
+}
+
+#comment{
+	padding: 150px;
+}
+#comment h2{
+	color: #33ccff;
+	font-size: 35px;
+	padding: 10px;
+	letter-spacing: 2px;
+  text-transform: uppercase;
+	font-weight: bold;
+}
+
+#comment p{
+	font-family: arial;
+	line-height: 29px;
+}
+
+#pics{
+	background-color: black;
+	width: 90%;
+	padding: 100PX;
+
+}
+#pics h1{
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	margin: 30px 0;
+	text-transform: uppercase;
+	font-family: cursive;
+}
+
+#pic2{
+	width: 35%;
+	height: 35%;
+	color: white;
+
+}
+#circle{
+	width: 80%;
+	height:90%;
+	
+
+}
+#circle img{
+	width: 100%;
+	height: 100%;
+	border-radius:90%;
+}
+#pic2 h3{
+	text-align: center;
+	font-size: 20px;
+	
+	margin-right: 76px;
+}
+#pic2 a{
+	color: white;
+	text-decoration: none;
+	
+	padding: 8px;
+	font-size: 15px;
+	background-color: #33ccff;
+	border-radius: 5px; 
+}
+
+#picture{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+}
+
+
+#row{
+	padding: 100px;
+
+}
+#card1{
+	width: 35%;
+	
+}
+#forflex{
+	display: flex;
+
+}
+#cnt{
+	height: 400px;
+	line-height: 29px;
+	font-size: 20px;
+	padding: 10px;
+}
+#imge{
+	width: 70%;
+
+	
+}
+img{
+width: 100%;
+}
+#card1 h1{
+	font-size: 30px;
+	padding: 30px;
+
+}
+#cnt p{
+	margin-bottom: 20px;
+}
+#cnt a{
+	
+	padding: 14px;
+	text-decoration: none;
+	color: white;
+	background-color:  #33ccff;
+	border-radius: 5px;
+
+}
+
+#cards{
+
+	display: flex;
+}
+
+
+#footer{
+	
+	width: 100%;
+	background-color: rgb(0,0,0);
+}
+
+#footer #pix001{
+	width: 6%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+
+#ff h2{
+	text-align:right;
+	color: white;
+	font-size: 30px;
+	font-family: cursive;
+	margin: 20px 5px;
+}
+#fex{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	
+	text-align:justify;
+	margin: 20px 5px;
+	padding: 15px;
+}
+
+#fex a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+#fex a:hover{
+	background-color:   #33ccff;
+	color: 
+}
